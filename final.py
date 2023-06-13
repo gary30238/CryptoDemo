@@ -12,7 +12,7 @@ from oauth2client.service_account import ServiceAccountCredentials
 
 def notify(s):
     headers = {
-        "Authorization": "Bearer " + "NzV9gwc7gn74ZGDuIKykKHk0JwS6ovUuOEYm77D153K",
+        "Authorization": "Bearer " + "line_token",
         "Content-Type": "application/x-www-form-urlencoded"
     }
  
